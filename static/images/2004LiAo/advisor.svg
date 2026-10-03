@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="416" height="256" viewBox="0 0 416 256" role="img" aria-label="Advisor"><title>Advisor</title>
+<rect width="416" height="256" fill="#efe6d2"/>
+<rect x="10" y="10" width="396" height="236" fill="none" stroke="#6e1610" stroke-width="3"/>
+<g fill="#6e1610">
+  <rect x="148" y="60" width="120" height="120"/><rect x="186" y="34" width="44" height="40"/><polygon points="180,36 208,16 236,36"/>
+  <rect x="60" y="118" width="300" height="62"/>
+</g>
+<g fill="#efe6d2">
+  <rect x="198" y="46" width="20" height="24"/>
+  <rect x="78" y="132" width="16" height="30"/><rect x="108" y="132" width="16" height="30"/><rect x="292" y="132" width="16" height="30"/><rect x="322" y="132" width="16" height="30"/>
+  <rect x="166" y="90" width="18" height="30"/><rect x="232" y="90" width="18" height="30"/><rect x="198" y="140" width="20" height="40"/>
+</g>
+<text x="208" y="214" fill="#2a0c09" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" text-anchor="middle">Office of the President</text>
+<text x="208" y="236" fill="#6e1610" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" letter-spacing="3" text-anchor="middle">THE SECRETARY-GENERAL ADVISES</text>
+</svg>

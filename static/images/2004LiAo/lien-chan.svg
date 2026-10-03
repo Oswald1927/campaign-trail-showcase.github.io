@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="500" viewBox="0 0 420 500" role="img" aria-label="Lien Chan (連戰)"><title>Lien Chan (連戰)</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3D5FD9"/><stop offset="1" stop-color="#0B1F66"/></linearGradient>
+  <radialGradient id="halo" cx="0.5" cy="0.38" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="420" height="500" fill="url(#bg)"/>
+<circle cx="224" cy="200" r="190" fill="url(#halo)"/>
+<g opacity="0.10" fill="#ffffff" font-family="'Noto Serif CJK TC', 'Noto Serif TC', 'Songti TC', PMingLiU, 'MingLiU', serif" font-size="150" font-weight="700"><text x="-10" y="150">連</text><text x="300" y="470">戰</text></g>
+<path d="M60 500 C66 400 120 352 190 336 L258 336 C330 352 384 400 390 500 Z" fill="#2D2D2D"/>
+<path d="M190 336 L224 404 L258 336 Z" fill="#f4efe6"/>
+<path d="M190 336 L210 380 L182 384 Z M258 336 L238 380 L266 384 Z" fill="#000" opacity="0.18"/>
+<rect x="200" y="280" width="48" height="62" rx="14" fill="#c99a78"/>
+<ellipse cx="224" cy="190" rx="78" ry="98" fill="#d8ab88"/>
+<ellipse cx="146" cy="196" rx="10" ry="20" fill="#c99a78"/><ellipse cx="302" cy="196" rx="10" ry="20" fill="#c99a78"/>
+<path d="M152 160 C150 108 196 84 232 86 C276 88 302 112 298 156 C276 130 240 120 206 124 C182 128 164 140 152 160 Z" fill="#3A3A3A"/>
+<g fill="#3b2a20"><ellipse cx="190" cy="184" rx="6" ry="5"/><ellipse cx="258" cy="184" rx="6" ry="5"/></g>
+<path d="M210 244 Q224 252 238 244" stroke="#8a5a44" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+<rect x="0" y="404" width="420" height="96" fill="#111" opacity="0.82"/>
+<rect x="0" y="404" width="420" height="5" fill="#f2d27a"/>
+<text x="22" y="446" fill="#fff" font-family="Georgia, 'Times New Roman', serif" font-size="31" font-weight="700">Lien Chan</text>
+<text x="398" y="448" fill="#f2d27a" font-family="'Noto Serif CJK TC', 'Noto Serif TC', 'Songti TC', PMingLiU, 'MingLiU', serif" font-size="32" font-weight="700" text-anchor="end">連戰</text>
+<text x="22" y="480" fill="#ddd" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" letter-spacing="2">KUOMINTANG · WITH JAMES SOONG</text>
+</svg>

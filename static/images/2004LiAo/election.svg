@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img" aria-label="2004 ROC presidential election"><title>2004 ROC presidential election</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1b9431"/><stop offset="0.5" stop-color="#e3b505"/><stop offset="1" stop-color="#1e3fbf"/></linearGradient></defs>
+<rect width="600" height="320" fill="#1d1a17"/>
+<rect y="0" width="600" height="14" fill="url(#g)"/>
+<g font-family="Georgia, 'Times New Roman', serif" fill="#fff" text-anchor="middle">
+  <text x="300" y="92" font-size="20" letter-spacing="6" fill="#e8c76a" font-family="'Helvetica Neue', Arial, sans-serif">MARCH 20, 2004</text>
+  <text x="300" y="150" font-size="44" font-weight="700">The Incumbent</text>
+  <text x="300" y="196" font-size="22" fill="#ddd">Four years after the most improbable</text>
+  <text x="300" y="226" font-size="22" fill="#ddd">election in the history of the Republic</text>
+</g>
+<g font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">
+  <rect x="40" y="258" width="160" height="34" fill="#1b9431"/><text x="120" y="281" fill="#fff">CHEN · LU</text>
+  <rect x="220" y="252" width="160" height="46" fill="#e3b505"/><text x="300" y="281" fill="#1d1a17">LI AO</text>
+  <rect x="400" y="258" width="160" height="34" fill="#1e3fbf"/><text x="480" y="281" fill="#fff">LIEN · SOONG</text>
+</g>
+</svg>

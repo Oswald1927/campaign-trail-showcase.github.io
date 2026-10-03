@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-label="background"><title>background</title>
+<defs><pattern id="p" width="160" height="160" patternUnits="userSpaceOnUse">
+<rect width="160" height="160" fill="#1d1a17"/>
+<text x="20" y="64" fill="#ffffff" fill-opacity="0.045" font-family="'Noto Serif CJK TC', 'Noto Serif TC', 'Songti TC', PMingLiU, 'MingLiU', serif" font-size="54">書</text>
+<text x="96" y="140" fill="#ffffff" fill-opacity="0.045" font-family="'Noto Serif CJK TC', 'Noto Serif TC', 'Songti TC', PMingLiU, 'MingLiU', serif" font-size="54">言</text>
+</pattern></defs>
+<rect width="640" height="640" fill="url(#p)"/>
+</svg>

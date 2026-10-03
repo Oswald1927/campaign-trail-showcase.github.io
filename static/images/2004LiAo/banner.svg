@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="2004: Li Ao, Li Ao, Li Ao"><title>2004: Li Ao, Li Ao, Li Ao</title>
+<defs>
+  <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a0c09"/><stop offset="0.55" stop-color="#6e1610"/><stop offset="1" stop-color="#2a0c09"/></linearGradient>
+  <pattern id="lines" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12 L12 0" stroke="#ffffff" stroke-opacity="0.05" stroke-width="2"/></pattern>
+</defs>
+<rect width="1000" height="300" fill="url(#b)"/>
+<rect width="1000" height="300" fill="url(#lines)"/>
+<g fill="#ffffff" fill-opacity="0.07" font-family="'Noto Serif CJK TC', 'Noto Serif TC', 'Songti TC', PMingLiU, 'MingLiU', serif" font-weight="700" font-size="250"><text x="-20" y="250">李</text><text x="760" y="270">敖</text></g>
+<rect x="40" y="36" width="920" height="228" fill="none" stroke="#e8c76a" stroke-width="3"/>
+<rect x="52" y="48" width="896" height="204" fill="none" stroke="#e8c76a" stroke-opacity="0.5" stroke-width="1.5"/>
+<text x="500" y="112" fill="#f5e6c4" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="4" text-anchor="middle">REPUBLIC OF CHINA · PRESIDENTIAL ELECTION · 2004</text>
+<text x="500" y="186" fill="#ffffff" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" text-anchor="middle">Li Ao, Li Ao, Li Ao</text>
+<text x="500" y="232" fill="#e8c76a" font-family="'Noto Serif CJK TC', 'Noto Serif TC', 'Songti TC', PMingLiU, 'MingLiU', serif" font-size="30" text-anchor="middle" letter-spacing="6">李敖　李敖　李敖</text>
+</svg>
