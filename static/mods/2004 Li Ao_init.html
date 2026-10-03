@@ -2,9 +2,19 @@
 // An alternate-history incumbency simulator: Li Ao narrowly won Taiwan's 2000 presidential election.
 
 campaignTrail_temp.achievements = {
+    "The Biggest Election": {
+        "image": "../static/images/2004LiAo/ach-canon.svg",
+        "description": "Canon: win re-election against Lee Teng-hui, Ma Ying-jeou and James Soong.",
+        "cannotBeCheated": true
+    },
     "Li Ao, Li Ao, Li Ao": {
         "image": "../static/images/2004LiAo/ach-liao3.svg",
         "description": "Win re-election with at least 40% of the vote.",
+        "cannotBeCheated": true
+    },
+    "Forty Years in the Making": {
+        "image": "../static/images/2004LiAo/ach-lee.svg",
+        "description": "Defeat Lee Teng-hui at the ballot box.",
         "cannotBeCheated": true
     },
     "The Kinmen Framework": {
@@ -12,14 +22,24 @@ campaignTrail_temp.achievements = {
         "description": "Sign the Cross-Strait Peace Framework on Kinmen and win re-election.",
         "cannotBeCheated": true
     },
-    "Unfinished Business": {
-        "image": "../static/images/2004LiAo/ach-lee.svg",
-        "description": "Hand Lee Teng-hui’s secret accounts to prosecutors and win re-election.",
+    "Keep Your Enemies Closer": {
+        "image": "../static/images/2004LiAo/ach-ma.svg",
+        "description": "Keep Ma Ying-jeou as your premier all the way to re-election.",
+        "cannotBeCheated": true
+    },
+    "Premier Soong": {
+        "image": "../static/images/2004LiAo/ach-soong.svg",
+        "description": "Win James Soong’s endorsement and win re-election.",
         "cannotBeCheated": true
     },
     "Recall This": {
         "image": "../static/images/2004LiAo/ach-recall.svg",
         "description": "Survive the recall motion and win re-election.",
+        "cannotBeCheated": true
+    },
+    "Something Important": {
+        "image": "../static/images/2004LiAo/ach-bullet.svg",
+        "description": "Joke about the bullet from your hospital bed — and win.",
         "cannotBeCheated": true
     },
     "Island Sweep": {
@@ -30,16 +50,6 @@ campaignTrail_temp.achievements = {
     "Southern Exposure": {
         "image": "../static/images/2004LiAo/ach-south.svg",
         "description": "As Li Ao, carry Tainan County.",
-        "cannotBeCheated": true
-    },
-    "Has Something to Say": {
-        "image": "../static/images/2004LiAo/ach-tv.svg",
-        "description": "Launch your presidential TV show and win re-election.",
-        "cannotBeCheated": true
-    },
-    "Better Fiction": {
-        "image": "../static/images/2004LiAo/ach-fiction.svg",
-        "description": "Lose after publicly doubting the March 19 shooting.",
         "cannotBeCheated": true
     },
     "By a Hair, Again": {
@@ -86,15 +96,15 @@ campaignTrail_temp.election_json = [
         "fields": {
             "year": 2004,
             "display_year": "2004 Li Ao",
-            "summary": "<div style='overflow-y:auto;max-height:260px;'><p><b>March 18, 2000.</b> Nobody saw it coming — least of all the candidate, who had told a televised debate audience that he wasn’t planning to vote for himself.</p><p>James Soong’s campaign never recovered from the Chung Hsing Bills Affair, Lien Chan’s never got off the ground, and in the final week a clip of Li Ao — writer, historian, former political prisoner and the most quotable man in the Chinese-speaking world — dismantling all four of his rivals in a single answer ran on every channel for days. Disgusted blue voters, protest voters and a startling number of first-time voters did the rest.</p><table style='width:100%;font-size:0.9em'><tr><td style='text-align:left'><span style='background-color:#E3B505;color:#E3B505'>--</span> Li Ao (New Party)</td><td>4,021,415</td><td>31.4%</td></tr><tr><td style='text-align:left'><span style='background-color:#1B9431;color:#1B9431'>--</span> Chen Shui-bian (DPP)</td><td>3,960,822</td><td>30.9%</td></tr><tr><td style='text-align:left'><span style='background-color:#FF6310;color:#FF6310'>--</span> James Soong (Independent)</td><td>3,279,010</td><td>25.6%</td></tr><tr><td style='text-align:left'><span style='background-color:#1E3FBF;color:#1E3FBF'>--</span> Lien Chan (KMT)</td><td>1,481,977</td><td>11.6%</td></tr><tr><td style='text-align:left'><span style='background-color:#99E64D;color:#99E64D'>--</span> Hsu Hsin-liang (Independent)</td><td>66,409</td><td>0.5%</td></tr></table><p>Four years later, President Li Ao has a hostile legislature, a furious DPP, a reunited KMT, a nervous Washington, a Beijing that can’t decide whether he is a gift or a trap — and a re-election campaign.</p><p><b>Can the accidental president win on purpose?</b></p></div>",
+            "summary": "<div style='overflow-y:auto;max-height:260px;'><p><b>March 18, 2000.</b> Nobody saw it coming — least of all the candidate, who had told a televised debate audience that he wasn’t planning to vote for himself.</p><p>James Soong’s campaign never recovered from the Chung Hsing Bills Affair, Lien Chan’s never got off the ground, and in the final week a clip of Li Ao — writer, historian, former political prisoner and the most quotable man in the Chinese-speaking world — dismantling all four of his rivals in a single answer ran on every channel for days. Disgusted blue voters, protest voters and a startling number of first-time voters did the rest.</p><table style='width:100%;font-size:0.9em'><tr><td style='text-align:left'><span style='background-color:#E3B505;color:#E3B505'>--</span> Li Ao (New Party)</td><td>4,021,415</td><td>31.4%</td></tr><tr><td style='text-align:left'><span style='background-color:#1B9431;color:#1B9431'>--</span> Chen Shui-bian (DPP)</td><td>3,960,822</td><td>30.9%</td></tr><tr><td style='text-align:left'><span style='background-color:#FF6310;color:#FF6310'>--</span> James Soong (Independent)</td><td>3,279,010</td><td>25.6%</td></tr><tr><td style='text-align:left'><span style='background-color:#1E3FBF;color:#1E3FBF'>--</span> Lien Chan (KMT)</td><td>1,481,977</td><td>11.6%</td></tr><tr><td style='text-align:left'><span style='background-color:#99E64D;color:#99E64D'>--</span> Hsu Hsin-liang (Independent)</td><td>66,409</td><td>0.5%</td></tr></table><p>Chen Shui-bian has gone back to practicing law. Lien Chan has said he will never run again. The 2004 field is wide open, and it will be the biggest election in Taiwanese history: an ex-president, the KMT’s golden boy, the man who nearly won in 2000, and whoever the DPP can find — all against an incumbent nobody voted for on purpose.</p><p><b>In this timeline, Li Ao won re-election. Can you?</b></p></div>",
             "image_url": "../static/images/2004LiAo/election.svg",
             "winning_electoral_vote_number": 0,
             "advisor_url": "../static/images/2004LiAo/advisor.svg",
-            "recommended_reading": "<h4>Thank you for playing <i>2004: Li Ao, Li Ao, Li Ao</i>!</h4><p>This is an alternate history. Li Ao really did run for President in 2000, as the New Party’s nominee with Elmer Fung; he won 16,782 votes (0.13%) and publicly urged people to vote for James Soong. Most other events in the scenario — Bazhang Creek, the Fourth Nuclear Plant, the 2001 arms package, SARS, the Referendum Act, the Hand-in-Hand rally and the March 19 shooting — happened in real life, to a different president.</p><h4>Further reading</h4><ul style='text-align:left'><li>Li Ao — <i>Beijing Fayuan Temple</i> (北京法源寺), 1991</li><li>Shelley Rigger — <i>Politics in Taiwan: Voting for Democracy</i>, 1999</li><li>Denny Roy — <i>Taiwan: A Political History</i>, 2003</li><li>Jay Taylor — <i>The Generalissimo’s Son: Chiang Ching-kuo and the Revolutions in China and Taiwan</i>, 2000</li><li>Richard C. Bush — <i>Untying the Knot: Making Peace in the Taiwan Strait</i>, 2005</li></ul><p>County map borrowed from <i>ROC’04 Bian.</i> by Phone_Tall (Soyorin).</p>",
+            "recommended_reading": "<h4>Thank you for playing <i>2004: Li Ao, Li Ao, Li Ao</i>!</h4><p>This is an alternate history. Li Ao really did run for President in 2000, as the New Party’s nominee with Elmer Fung; he won 16,782 votes (0.13%) and publicly urged people to vote for James Soong. Most events in the scenario — Bazhang Creek, the Fourth Nuclear Plant, the 2001 arms package, the name-rectification marches, SARS, the Referendum Act, the Hand-in-Hand rally and the March 19 shooting — really happened, to a different president.</p><h4>Further reading</h4><ul style='text-align:left'><li>Li Ao — <i>Beijing Fayuan Temple</i> (北京法源寺), 1991</li><li>Shelley Rigger — <i>Politics in Taiwan: Voting for Democracy</i>, 1999</li><li>Denny Roy — <i>Taiwan: A Political History</i>, 2003</li><li>Jay Taylor — <i>The Generalissimo’s Son: Chiang Ching-kuo and the Revolutions in China and Taiwan</i>, 2000</li><li>Richard C. Bush — <i>Untying the Knot: Making Peace in the Taiwan Strait</i>, 2005</li></ul><p>Photos from Wikimedia Commons. County map borrowed from <i>ROC’04 Bian.</i> by Phone_Tall (Soyorin).</p>",
             "has_visits": 1,
             "no_electoral_majority_image": "../static/images/2004LiAo/election.svg",
             "site_image": "../static/images/2004LiAo/election.svg",
-            "site_description": "<p><b>What if Li Ao had won?</b> In 2000 the writer, historian and former political prisoner ran for President of the Republic of China and finished fifth with 0.13% of the vote. In this timeline, he wins by 60,593 votes.</p><p>Govern Taiwan from May 2000 to March 2004 — a hostile legislature, the Fourth Nuclear Plant, Lee Teng-hui’s secret accounts, Beijing’s offers and Washington’s weapons, SARS — then fight a three-way race for re-election against Chen Shui-bian and the reunited Lien–Soong ticket.</p>"
+            "site_description": "<p><b>What if Li Ao had won?</b> In 2000 the writer, historian and former political prisoner ran for President of the Republic of China and finished fifth with 0.13% of the vote. In this timeline, he wins by 60,593 votes.</p><p>Govern Taiwan from 2000 to 2004 — a hostile legislature, Lee Teng-hui’s secret accounts, Beijing’s offers, Washington’s weapons, SARS — and decide who you face in the biggest election in Taiwanese history: Lee Teng-hui? Ma Ying-jeou? James Soong? Frank Hsieh? Your choices build the field.</p>"
         }
     }
 ];
@@ -108,7 +118,7 @@ campaignTrail_temp.temp_election_list = [
     }
 ];
 
-campaignTrail_temp.credits = "Claude, with the county map from ROC'04 Bian. by Phone_Tall (Soyorin)";
+campaignTrail_temp.credits = "Claude, with the county map from ROC'04 Bian. by Phone_Tall (Soyorin) and photos from Wikimedia Commons";
 
 campaignTrail_temp.candidate_json = [
     {
@@ -118,14 +128,14 @@ campaignTrail_temp.candidate_json = [
             "first_name": "",
             "last_name": "Li Ao",
             "election": 20,
-            "party": "Independent (New Party nominee)",
+            "party": "Independent (New Party-backed)",
             "state": "Taipei (born in Harbin)",
             "priority": 1,
-            "description": "<div style='overflow-y:auto;max-height:235px;padding-right:6px;'><p><b>“In the last fifty years and the next five hundred, the three greatest writers of vernacular Chinese are Li Ao, Li Ao and Li Ao.”</b></p><p>Born in Harbin in 1935 and brought to Taiwan in 1949, Li Ao made his name in the early 1960s as the enfant terrible of the magazine <i>Wenxing</i>, and spent the next forty years as the Kuomintang’s most relentless critic — a sniper with a typewriter. The regime banned dozens of his books and held him as a political prisoner from 1971 to 1976. He has written about everything: the Chiang family, Lee Teng-hui, the 228 Incident, five thousand years of Chinese history, and above all himself.</p><p>Now he is President, the first from outside both major parties, and he has discovered that governing is harder than writing about people who govern badly. His New Party has a handful of legislators; the KMT and DPP have the rest. He favors unification with a democratic China, despises the KMT’s money, distrusts America’s guns, and cannot stop talking.</p><p>The 2004 election is a three-way race. Can the accidental president win on purpose?</p></div>",
+            "description": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p><b>“In the last fifty years and the next five hundred, the three greatest writers of vernacular Chinese are Li Ao, Li Ao and Li Ao.”</b></p><p>Born in Harbin in 1935 and brought to Taiwan in 1949, Li Ao made his name in the early 1960s as the enfant terrible of the magazine <i>Wenxing</i>, and spent the next forty years as the Kuomintang’s most relentless critic — a sniper with a typewriter. The regime banned dozens of his books and held him as a political prisoner from 1971 to 1976. He has written about everything: the Chiang family, Lee Teng-hui, the 228 Incident, five thousand years of Chinese history, and above all himself.</p><p>Now he is President, the first from outside both major parties, and he has discovered that governing is harder than writing about people who govern badly. His New Party has a handful of legislators; the KMT and DPP have the rest. He favors unification with a democratic China, despises the KMT’s money, distrusts America’s guns, and cannot stop talking.</p><p>Who he faces in 2004 — and whether he wins — is up to you.</p></div>",
             "color_hex": "#E3B505",
             "secondary_color_hex": "#E3B505",
             "is_active": 1,
-            "image_url": "../static/images/2004LiAo/li-ao.svg",
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/LiAoAtFayuansi_%28cropped%29.JPG?width=420",
             "electoral_victory_message": "<h3>Li Ao has been re-elected President of the Republic of China.</h3>",
             "electoral_loss_message": "<h3>Li Ao has been defeated.</h3>",
             "no_electoral_majority_message": "<h3>The votes are being counted.</h3>",
@@ -139,16 +149,16 @@ campaignTrail_temp.candidate_json = [
         "pk": 2004101,
         "fields": {
             "first_name": "",
-            "last_name": "Chen Shui-bian",
+            "last_name": "Frank Hsieh",
             "election": 20,
             "party": "Democratic Progressive Party",
-            "state": "Tainan County",
+            "state": "Kaohsiung City (born in Taipei)",
             "priority": 2,
-            "description": "<div style='overflow-y:auto;max-height:235px;padding-right:6px;'><p>The “Son of Taiwan” lost the 2000 election by 60,593 votes and has spent four years making sure everyone remembers it. Now DPP chairman and running again with Annette Lu, A-Bian is fighting for a rematch — and for a referendum on Taiwan’s future.</p></div>",
+            "description": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p>Kaohsiung’s mayor and the DPP’s chairman, a lawyer-turned-dissident famous for nuance in a party that rarely rewards it.</p></div>",
             "color_hex": "#1B9431",
             "secondary_color_hex": "#1B9431",
             "is_active": 0,
-            "image_url": "../static/images/2004LiAo/chen-shui-bian.svg",
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frank_Hsieh.jpg?width=420",
             "electoral_victory_message": "<h3>Li Ao has been re-elected President of the Republic of China.</h3>",
             "electoral_loss_message": "<h3>Li Ao has been defeated.</h3>",
             "no_electoral_majority_message": "<h3>The votes are being counted.</h3>",
@@ -162,16 +172,108 @@ campaignTrail_temp.candidate_json = [
         "pk": 2004102,
         "fields": {
             "first_name": "",
-            "last_name": "Lien Chan",
+            "last_name": "Su Tseng-chang",
             "election": 20,
-            "party": "Kuomintang (with the People First Party)",
-            "state": "Tainan City (born in Xi’an)",
+            "party": "Democratic Progressive Party",
+            "state": "Pingtung County",
+            "priority": 2,
+            "description": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p>Taipei County’s hard-charging magistrate, nicknamed the “Electric Fireball,” who took the DPP nomination from the party’s cohabitation wing.</p></div>",
+            "color_hex": "#1B9431",
+            "secondary_color_hex": "#1B9431",
+            "is_active": 0,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Su-Tseng-chang_%28cropped%29.jpg?width=420",
+            "electoral_victory_message": "<h3>Li Ao has been re-elected President of the Republic of China.</h3>",
+            "electoral_loss_message": "<h3>Li Ao has been defeated.</h3>",
+            "no_electoral_majority_message": "<h3>The votes are being counted.</h3>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 2004103,
+        "fields": {
+            "first_name": "",
+            "last_name": "Lee Teng-hui",
+            "election": 20,
+            "party": "Taiwan Solidarity Union (DPP-endorsed)",
+            "state": "Taipei County (born in Sanzhi)",
+            "priority": 2,
+            "description": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p>The father of Taiwan’s democracy — or, in your books, its most accomplished hypocrite — returns at eighty for one last campaign.</p></div>",
+            "color_hex": "#9C6B30",
+            "secondary_color_hex": "#9C6B30",
+            "is_active": 0,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lee_Teng-hui_official_portrait.png?width=420",
+            "electoral_victory_message": "<h3>Li Ao has been re-elected President of the Republic of China.</h3>",
+            "electoral_loss_message": "<h3>Li Ao has been defeated.</h3>",
+            "no_electoral_majority_message": "<h3>The votes are being counted.</h3>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 2004104,
+        "fields": {
+            "first_name": "",
+            "last_name": "Ma Ying-jeou",
+            "election": 20,
+            "party": "Kuomintang",
+            "state": "Taipei City (born in Hong Kong)",
             "priority": 3,
-            "description": "<div style='overflow-y:auto;max-height:235px;padding-right:6px;'><p>The former Vice President finished fourth in 2000, a humiliation for the party that ruled Taiwan for half a century. Now KMT chairman, he has made peace with his old rival James Soong, who joins him as running mate. A reunited blue camp wants its country back.</p></div>",
+            "description": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p>The KMT’s telegenic, Harvard-educated rising star: clean, careful and adored by the middle class of the north.</p></div>",
             "color_hex": "#1E3FBF",
             "secondary_color_hex": "#1E3FBF",
             "is_active": 0,
-            "image_url": "../static/images/2004LiAo/lien-chan.svg",
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ma_Ying-jeou_MOFA_Presidential_Portrait_2008.png?width=420",
+            "electoral_victory_message": "<h3>Li Ao has been re-elected President of the Republic of China.</h3>",
+            "electoral_loss_message": "<h3>Li Ao has been defeated.</h3>",
+            "no_electoral_majority_message": "<h3>The votes are being counted.</h3>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 2004106,
+        "fields": {
+            "first_name": "",
+            "last_name": "Wang Jin-pyng",
+            "election": 20,
+            "party": "Kuomintang",
+            "state": "Kaohsiung County",
+            "priority": 3,
+            "description": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p>The Legislative Yuan’s Speaker and the KMT’s great southern dealmaker, with the best-oiled local machine on the island.</p></div>",
+            "color_hex": "#1E3FBF",
+            "secondary_color_hex": "#1E3FBF",
+            "is_active": 0,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wang_Jin-pyng%2C_President_of_the_Legislative_Yuan_%287172294519%29_%28cropped%29.jpg?width=420",
+            "electoral_victory_message": "<h3>Li Ao has been re-elected President of the Republic of China.</h3>",
+            "electoral_loss_message": "<h3>Li Ao has been defeated.</h3>",
+            "no_electoral_majority_message": "<h3>The votes are being counted.</h3>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 2004105,
+        "fields": {
+            "first_name": "",
+            "last_name": "James Soong",
+            "election": 20,
+            "party": "People First Party",
+            "state": "Taipei (born in Hunan)",
+            "priority": 4,
+            "description": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p>The former Governor of Taiwan Province, who finished third in 2000 and has never forgiven anyone for it.</p></div>",
+            "color_hex": "#FF6310",
+            "secondary_color_hex": "#FF6310",
+            "is_active": 0,
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%AE%8B%E6%A5%9A%E7%91%9C%E4%B8%BB%E5%B8%AD2016_%28cropped%29.jpg?width=420",
             "electoral_victory_message": "<h3>Li Ao has been re-elected President of the Republic of China.</h3>",
             "electoral_loss_message": "<h3>Li Ao has been defeated.</h3>",
             "no_electoral_majority_message": "<h3>The votes are being counted.</h3>",
@@ -189,8 +291,8 @@ campaignTrail_temp.candidate_json = [
             "election": 20,
             "party": "New Party",
             "state": "Taipei City",
-            "priority": 4,
-            "description": "<div style='overflow-y:auto;max-height:235px;padding-right:6px;'><p></p></div>",
+            "priority": 5,
+            "description": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p></p></div>",
             "color_hex": "#E3B505",
             "secondary_color_hex": "#E3B505",
             "is_active": 0,
@@ -198,7 +300,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "<h3>Li Ao has been re-elected President of the Republic of China.</h3>",
             "electoral_loss_message": "<h3>Li Ao has been defeated.</h3>",
             "no_electoral_majority_message": "<h3>The votes are being counted.</h3>",
-            "description_as_running_mate": "<div style='overflow-y:auto;max-height:235px;padding-right:6px;'><p><b>The incumbent.</b> Your Vice President for four years, Elmer Fung is a Boston University-trained philosophy professor and New Party legislator from Taipei — and the most combative debater in a party not short of them. Loyal, fearless and adored by deep-blue voters who think the KMT has gone soft, he exhausts moderates and infuriates the DPP.</p><p>Keeping him on the ticket says: nothing has changed. It shores up Taipei and the offshore islands, and costs you in the south.</p></div>",
+            "description_as_running_mate": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p><b>The incumbent.</b> Your Vice President for four years, Elmer Fung is a Boston University-trained philosophy professor and New Party legislator from Taipei — and the most combative debater in a party not short of them. Loyal, fearless and adored by deep-blue voters who think the KMT has gone soft, he exhausts moderates and infuriates the DPP.</p><p>Keeping him on the ticket says: nothing has changed. It shores up Taipei and the offshore islands, and costs you in the south.</p></div>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -212,8 +314,8 @@ campaignTrail_temp.candidate_json = [
             "election": 20,
             "party": "New Party",
             "state": "Taipei City",
-            "priority": 5,
-            "description": "<div style='overflow-y:auto;max-height:235px;padding-right:6px;'><p></p></div>",
+            "priority": 6,
+            "description": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p></p></div>",
             "color_hex": "#E3B505",
             "secondary_color_hex": "#E3B505",
             "is_active": 0,
@@ -221,7 +323,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "<h3>Li Ao has been re-elected President of the Republic of China.</h3>",
             "electoral_loss_message": "<h3>Li Ao has been defeated.</h3>",
             "no_electoral_majority_message": "<h3>The votes are being counted.</h3>",
-            "description_as_running_mate": "<div style='overflow-y:auto;max-height:235px;padding-right:6px;'><p><b>The clean pair of hands.</b> A co-founder of the New Party and a former Minister of Finance, Wang Chien-shien resigned from the cabinet in 1992 rather than back down on taxing land speculation, and has carried a reputation for incorruptibility ever since. Soft-spoken, careful and widely trusted, he is everything you are not.</p><p>He would sharpen your anti-corruption message and reassure voters who wonder who is minding the store while you are on television.</p></div>",
+            "description_as_running_mate": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p><b>The clean pair of hands.</b> A co-founder of the New Party and a former Minister of Finance, Wang Chien-shien resigned from the cabinet in 1992 rather than back down on taxing land speculation, and has carried a reputation for incorruptibility ever since. Soft-spoken, careful and widely trusted, he is everything you are not.</p><p>He would sharpen your anti-corruption message and reassure voters who wonder who is minding the store while you are on television.</p></div>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -235,16 +337,16 @@ campaignTrail_temp.candidate_json = [
             "election": 20,
             "party": "Independent (former DPP chairman)",
             "state": "Taoyuan County",
-            "priority": 6,
-            "description": "<div style='overflow-y:auto;max-height:235px;padding-right:6px;'><p></p></div>",
+            "priority": 7,
+            "description": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p></p></div>",
             "color_hex": "#E3B505",
             "secondary_color_hex": "#E3B505",
             "is_active": 0,
-            "image_url": "../static/images/2004LiAo/hsu-hsin-liang.svg",
+            "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/President_Direct_Election_Movement_Hsin-liang_Hsu.jpg?width=420",
             "electoral_victory_message": "<h3>Li Ao has been re-elected President of the Republic of China.</h3>",
             "electoral_loss_message": "<h3>Li Ao has been defeated.</h3>",
             "no_electoral_majority_message": "<h3>The votes are being counted.</h3>",
-            "description_as_running_mate": "<div style='overflow-y:auto;max-height:235px;padding-right:6px;'><p><b>The bridge.</b> Twice chairman of the Democratic Progressive Party, Hsu Hsin-liang broke with it over its caution toward the mainland — his slogan was “Go West Boldly” — and ran against both you and Chen Shui-bian as an independent in 2000. A Hakka from Taoyuan who spent a decade in exile under martial law, he gives your ticket something it has never had: green credentials.</p><p>Deep-blue voters will be horrified. Light-green voters might finally listen.</p></div>",
+            "description_as_running_mate": "<div style='overflow-y:auto;max-height:175px;padding-right:6px;'><p><b>The bridge.</b> Twice chairman of the Democratic Progressive Party, Hsu Hsin-liang broke with it over its caution toward the mainland — his slogan was “Go West Boldly” — and ran against both you and Chen Shui-bian as an independent in 2000. A Hakka from Taoyuan who spent a decade in exile under martial law, he gives your ticket something it has never had: green credentials.</p><p>Deep-blue voters will be horrified. Light-green voters might finally listen.</p></div>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -284,7 +386,8 @@ campaignTrail_temp.opponents_default_json = [
         "candidates": [
             2004100,
             2004101,
-            2004102
+            2004104,
+            2004105
         ]
     }
 ];
@@ -295,7 +398,8 @@ campaignTrail_temp.opponents_weighted_json = [
         "candidates": [
             2004100,
             2004101,
-            2004102
+            2004104,
+            2004105
         ]
     }
 ];
@@ -369,6 +473,27 @@ campaignTrail_temp.modBoxTheme = {
     "ui_text_color": "#2A0C09"
 };
 
+// real photos are hotlinked from Wikimedia Commons; if one fails to load, swap in the drawn portrait
+window.LIAO_FALLBACKS = {
+    "https://commons.wikimedia.org/wiki/Special:FilePath/LiAoAtFayuansi_%28cropped%29.JPG?width=420": "../static/images/2004LiAo/li-ao.svg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Lee_Teng-hui_official_portrait.png?width=420": "../static/images/2004LiAo/lee-teng-hui.svg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Ma_Ying-jeou_MOFA_Presidential_Portrait_2008.png?width=420": "../static/images/2004LiAo/ma-ying-jeou.svg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%AE%8B%E6%A5%9A%E7%91%9C%E4%B8%BB%E5%B8%AD2016_%28cropped%29.jpg?width=420": "../static/images/2004LiAo/james-soong.svg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Frank_Hsieh.jpg?width=420": "../static/images/2004LiAo/frank-hsieh.svg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Su-Tseng-chang_%28cropped%29.jpg?width=420": "../static/images/2004LiAo/su-tseng-chang.svg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Wang_Jin-pyng%2C_President_of_the_Legislative_Yuan_%287172294519%29_%28cropped%29.jpg?width=420": "../static/images/2004LiAo/wang-jin-pyng.svg",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/President_Direct_Election_Movement_Hsin-liang_Hsu.jpg?width=420": "../static/images/2004LiAo/hsu-hsin-liang.svg"
+};
+if (!window.liaoImageFallback) {
+  window.liaoImageFallback = true;
+  document.addEventListener("error", (ev) => {
+    const img = ev.target;
+    if (!img || img.tagName !== "IMG") return;
+    const fb = window.LIAO_FALLBACKS[img.getAttribute("src")];
+    if (fb) img.src = fb;
+  }, true);
+}
+
 // ---------------------------------------------------------------- presentation
 campaignTrail_temp.CandidText = "The incumbent:";
 campaignTrail_temp.VpText = "Choose your 2004 running mate:";
@@ -388,11 +513,11 @@ document.body.background = "../static/images/2004LiAo/background.svg";
 document.getElementById("inner_window_1").children[0].innerHTML = "Do you have what it takes to win re-election?";
 document.getElementById("inner_window_1").children[1].innerHTML = `
   <li>Welcome to <b>2004: Li Ao, Li Ao, Li Ao</b>, an alternate-history incumbency simulator.</li>
-  <li>In this timeline, the writer, historian and former political prisoner Li Ao narrowly won Taiwan's 2000 presidential election as the New Party's nominee.</li>
-  <li>You will govern from his May 2000 inauguration to the eve of the March 2004 election, then fight a three-way race for re-election against Chen Shui-bian and the reunited Lien–Soong ticket.</li>
-  <li>Your decisions shape where Li Ao stands on five issues and how each of Taiwan's 25 counties and cities sees him. Some choices open new storylines.</li>
+  <li>In this timeline, the writer, historian and former political prisoner Li Ao narrowly won Taiwan's 2000 presidential election as the New Party's nominee — and in 2004, he won again.</li>
+  <li>You will govern from his May 2000 inauguration to the eve of the March 2004 election. Your choices decide who you face: Lee Teng-hui, Ma Ying-jeou, James Soong, Frank Hsieh, Su Tseng-chang or Wang Jin-pyng.</li>
+  <li>Branching storylines: a recall vote, a summit on Kinmen, a premier who wants your job, an ex-president's comeback, a blue-camp merger you can sabotage — and one very long night in Tainan.</li>
   <li>The President is elected by plurality popular vote. Counties are colored by whoever leads them, but only the national total decides the winner.</li>
-  <li>Multiple endings and achievements. Candidate portraits are illustrated placeholders.</li>`;
+  <li>Multiple endings and achievements, including the canon one.</li>`;
 
 (function () {
   const text = "<p><strong>The President of the Republic of China is elected by direct popular vote.</strong></p>" +

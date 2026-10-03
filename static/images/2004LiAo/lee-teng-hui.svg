@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="500" viewBox="0 0 420 500" role="img" aria-label="Lee Teng-hui (李登輝)"><title>Lee Teng-hui (李登輝)</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C69C6D"/><stop offset="1" stop-color="#5A3B1A"/></linearGradient>
+  <radialGradient id="halo" cx="0.5" cy="0.38" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="420" height="500" fill="url(#bg)"/>
+<circle cx="224" cy="200" r="190" fill="url(#halo)"/>
+<g opacity="0.10" fill="#ffffff" font-family="'Noto Serif CJK TC', 'Noto Serif TC', 'Songti TC', PMingLiU, 'MingLiU', serif" font-size="150" font-weight="700"><text x="-10" y="150">李</text><text x="300" y="470">輝</text></g>
+<path d="M60 500 C66 400 120 352 190 336 L258 336 C330 352 384 400 390 500 Z" fill="#2D2D2D"/>
+<path d="M190 336 L224 404 L258 336 Z" fill="#f4efe6"/>
+<path d="M190 336 L210 380 L182 384 Z M258 336 L238 380 L266 384 Z" fill="#000" opacity="0.18"/>
+<rect x="200" y="280" width="48" height="62" rx="14" fill="#c99a78"/>
+<ellipse cx="224" cy="190" rx="78" ry="98" fill="#d8ab88"/>
+<ellipse cx="146" cy="196" rx="10" ry="20" fill="#c99a78"/><ellipse cx="302" cy="196" rx="10" ry="20" fill="#c99a78"/>
+<path d="M156 150 C160 108 196 90 228 90 C266 90 294 110 296 146 C280 132 266 128 250 128 C226 112 186 120 156 150 Z" fill="#D9D9D9"/>
+<g fill="#3b2a20"><ellipse cx="190" cy="184" rx="6" ry="5"/><ellipse cx="258" cy="184" rx="6" ry="5"/></g>
+<path d="M210 244 Q224 252 238 244" stroke="#8a5a44" stroke-width="4" fill="none" stroke-linecap="round"/>
+<g fill="none" stroke="#0e0e0e" stroke-width="5"><rect x="168" y="168" width="44" height="30" rx="9"/><rect x="236" y="168" width="44" height="30" rx="9"/><path d="M212 180 Q224 172 236 180"/></g>
+<rect x="0" y="404" width="420" height="96" fill="#111" opacity="0.82"/>
+<rect x="0" y="404" width="420" height="5" fill="#f2d27a"/>
+<text x="22" y="446" fill="#fff" font-family="Georgia, 'Times New Roman', serif" font-size="31" font-weight="700">Lee Teng-hui</text>
+<text x="398" y="448" fill="#f2d27a" font-family="'Noto Serif CJK TC', 'Noto Serif TC', 'Songti TC', PMingLiU, 'MingLiU', serif" font-size="32" font-weight="700" text-anchor="end">李登輝</text>
+<text x="22" y="480" fill="#ddd" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" letter-spacing="2">TAIWAN SOLIDARITY UNION</text>
+</svg>
